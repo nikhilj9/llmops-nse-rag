@@ -24,13 +24,22 @@ Phase 1 - Working MVP (In Progress)
 - data/            → Sample PDFs and processed JSON
 - notebooks/       → Small experiments
 
+## S3 Bucket Structure
+
+### Bucket: `llmops-nse-rag-yourname`
+
+**Folder Descriptions:**
+- **raw-pdfs/**: Stores original PDF files for processing
+- **processed-json/**: Contains extracted text and metadata in JSON format
+- **embeddings-cache/**: Cached vector embeddings for faster retrieval
+
 ## Progress Tracker
 - [x] GitHub repo created
 - [x] Folder structure created
 - [x] README updated
 - [x] project_context.md created
-- [ ] AWS S3 bucket setup
-- [ ] Bedrock access enabled
+- [x] AWS S3 bucket setup
+- [x] Bedrock access enabled
 - [ ] PDF processor built
 - [ ] Embeddings pipeline built
 - [ ] Qdrant ingestion built
